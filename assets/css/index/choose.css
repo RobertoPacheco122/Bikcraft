@@ -1,0 +1,28 @@
+.choose {
+    background-color: var(--choose-bg);
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.choose__title {
+    margin-bottom: 2rem;
+}
+
+.choose__list {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 2rem;
+}
+
+.choose--bicycle__name {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: .6rem;
+}
+
+.choose--bicycle__name::before {
+    content: "•";
+    color: var(--p1);
+    margin-right: .3rem;
+}
