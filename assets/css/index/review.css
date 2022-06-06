@@ -1,0 +1,31 @@
+.review--container {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--review-bg);
+    gap: 2.5rem;
+}
+
+.review__img {
+    border-radius: 0;
+}
+
+.review--container--content {
+    align-self: end;
+    padding-bottom: 6rem;
+    padding-right: 10rem;
+}
+
+.review__depoiment {
+    font-size: 2rem;
+    font-family: var(--font-merriweather);
+    font-weight: 600;
+    color: var(--p5);
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+}
+
+.review__name {
+    color: var(--p4);
+    font-weight: 600;
+}
