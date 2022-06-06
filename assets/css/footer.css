@@ -1,0 +1,55 @@
+.footer {
+    background-color: var(--footer-bg);
+    color: var(--c5);
+    padding: 2rem 0;
+}
+
+.footer--container {
+    display: grid;
+    column-gap: 3.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 2rem;
+}
+
+.footer__title {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+
+.footer--container--number, .footer--container--address {
+    border-bottom: 1px solid var(--c5);
+    margin-bottom: 1rem;
+}
+
+.footer__number, .footer__email, .footer__address, .footer__city, .footer__link {
+    margin-bottom: 1rem;
+    font-size: .9rem;
+}
+
+.footer__icon {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+.icon--instagram {
+    background-image: url(../img/redes/instagram.svg);
+}
+
+.icon--facebook {
+    background-image: url("../img/redes/facebook.svg");
+}
+
+.icon--youtube {
+    background-image: url("../img/redes/youtube.svg");
+}
+
+.footer__item {
+    margin-bottom: 1rem;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--c5);
+}
