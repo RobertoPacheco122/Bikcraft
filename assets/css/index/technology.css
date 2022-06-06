@@ -1,0 +1,68 @@
+.technology {
+    background-color: var(--technology-bg);
+}
+
+.technology--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    box-shadow: inset 0 5rem var(--choose-bg), inset 0 -5rem var(--partners-bg);
+    gap: 0 2.5rem;
+}
+
+.technology--container--content {
+    align-self: end;
+    padding: 10rem 0;
+}
+
+.technology--section__title, .technology__title, .technology__subtitle {
+    color: var(--c5);
+    margin-bottom: 1.5rem;
+}
+
+.technology--section__title {
+    text-transform: uppercase;
+    display: block;
+}
+
+.technology__title {
+    color: var(--white);
+}
+
+.technology__link {
+    color: var(--p1);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--p1);
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.technology__list {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+.technology__icon {
+    margin-bottom: 1rem;
+}
+
+.icon--bike {
+    background-image: url(../img/icones/eletrica.svg);
+}
+
+.icon--tracker {
+    background-image: url(../img/icones/rastreador.svg);
+}
+
+.technology__benefit {
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.technology--benefit__description {
+    color: var(--c5);
+    font-size: .9rem;
+}
