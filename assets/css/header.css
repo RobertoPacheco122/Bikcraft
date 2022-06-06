@@ -1,0 +1,20 @@
+.header {
+    background-color: var(--header-bg);
+    padding: 2rem 0;
+}
+
+.header--container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.header__link {
+    text-decoration: none;
+    color: var(--font-color-default);
+}
