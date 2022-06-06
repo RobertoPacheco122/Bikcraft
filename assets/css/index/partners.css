@@ -1,0 +1,32 @@
+.partners {
+    background-color: var(--partners-bg);
+    padding: 5rem 0;
+}
+
+.partners__title {
+    margin-bottom: 2rem;
+}
+
+.partners__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.partners__item {
+    padding: 2rem;
+    border-left: 2px solid var(--c2);
+    display: flex;
+    border-top: none;
+}
+
+.partners__item:first-child, .partners__item:nth-child(5) {
+    border-left: none;
+}
+
+.partners__item:nth-child(n + 5){
+    border-top: 2px solid var(--c2);
+}
+
+.partners__logo {
+    margin: auto;
+}
