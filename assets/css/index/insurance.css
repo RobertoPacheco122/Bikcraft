@@ -1,0 +1,83 @@
+.insurance {
+    background-color: var(--insurance-bg);
+    padding: 3rem 0;
+}
+
+.insurance__title {
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+
+.insurance--container--content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insurance--container--plan {
+    display: grid;
+    gap: 9rem;
+    grid-template-columns: 1fr auto;
+    background-color: var(--black);
+    padding: 1.5rem;
+    border-radius: 5px;
+    color: var(--white);
+}
+
+.insurance__plan {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-left: 1.3rem;
+}
+
+.insurance__plan--silver {
+    color: var(--c6);
+}
+
+.insurance__plan--gold {
+    color: var(--p1);
+}
+
+.insurance__item {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.insurance__item::before {
+    content: url(../img/icones/lista.svg);
+    margin-right: .5rem;
+}
+
+.insurance__item:last-child {
+    margin-bottom: 1.5rem;
+}
+
+.insurance__button {
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.insurance__button--silver {
+    background-color: var(--c10);
+    color: var(--c4);
+}
+
+.insurance__button--gold {
+    background-color: var(--p1);
+    color: var(--p5);
+}
+
+.insurance__price {
+    font-size: 1.5rem;
+    display: block;
+}
+
+.insurance__peridiocity {
+    display: block;
+    text-align: end;
+    font-size: .8rem;
+    color: var(--c6);
+}
