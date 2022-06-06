@@ -46,7 +46,7 @@
 }
 
 .insurance__item::before {
-    content: url(../img/icones/lista.svg);
+    content: url(../../img/icones/lista.svg);
     margin-right: .5rem;
 }
 
