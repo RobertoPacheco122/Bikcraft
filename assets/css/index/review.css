@@ -29,3 +29,17 @@
     color: var(--p4);
     font-weight: 600;
 }
+
+@media screen and (min-width: 320px) {
+    .review--container {
+        grid-template-columns: 1fr;
+    }
+
+    .review--container--content {
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .review__depoiment {
+        font-size: 1.4rem;
+    }
+}

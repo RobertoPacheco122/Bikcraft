@@ -26,3 +26,17 @@
     color: var(--p1);
     margin-right: .3rem;
 }
+
+@media screen and (min-width: 320px) {
+    .choose {
+        padding-bottom: 0;
+    }
+
+    .choose__list {
+        grid-template-columns: 1fr;
+    }
+
+    .choose__item {
+        margin-bottom: 4rem;
+    }
+}

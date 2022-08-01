@@ -53,3 +53,17 @@
     text-decoration: none;
     color: var(--c5);
 }
+
+@media screen and (min-width: 320px) {
+    .footer--container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__logo {
+        margin-bottom: 2rem;
+    }
+
+    .footer--container--socials {
+        margin-bottom: 2rem;
+    }
+}

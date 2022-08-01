@@ -81,3 +81,14 @@
     font-size: .8rem;
     color: var(--c6);
 }
+
+@media screen and (min-width: 320px) {
+    .insurance--container--content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .insurance--container--plan {
+        gap: 0;
+    }
+}

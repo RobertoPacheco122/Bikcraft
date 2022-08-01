@@ -30,3 +30,27 @@
 .partners__logo {
     margin: auto;
 }
+
+@media screen and (min-width: 320px) {
+    .partners__list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .partners__item:nth-child(3), .partners__item:nth-child(7) {
+        border-left: none;
+    }
+
+    .partners__item:nth-child(1), .partners__item:nth-child(2) {
+        border-bottom: 2px solid var(--c2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .partners {
+        padding-top: 0;
+    }
+
+    .partners__logo {
+        max-width: 80px;
+    }
+}
