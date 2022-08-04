@@ -11,7 +11,7 @@
 }
 
 .introdution--container--content {
-    align-self: end;
+    align-self: center;
     margin-bottom: 10rem;
 }
 
@@ -30,4 +30,15 @@
     padding: 1rem;
     border-radius: 5px;
     align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+    .introdution--container {
+        grid-template-columns: 1fr;
+    }
+
+    .introdution--container--content {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
 }

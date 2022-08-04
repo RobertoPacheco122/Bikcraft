@@ -11,7 +11,7 @@
 }
 
 .technology--container--content {
-    align-self: end;
+    align-self: center;
     padding: 10rem 0;
 }
 
@@ -65,4 +65,18 @@
 .technology--benefit__description {
     color: var(--c5);
     font-size: .9rem;
+}
+
+@media screen and (max-width: 767px) {
+    .technology--container {
+        grid-template-columns: 1fr;
+    }
+    
+    .technology__title {
+        font-size: 2rem;
+    }
+
+    .technology__img {
+        display: none;
+    }
 }

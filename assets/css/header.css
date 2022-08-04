@@ -18,3 +18,10 @@
     text-decoration: none;
     color: var(--font-color-default);
 }
+
+@media screen and (max-width: 767px) {
+    .header--container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

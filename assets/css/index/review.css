@@ -11,7 +11,7 @@
 }
 
 .review--container--content {
-    align-self: end;
+    align-self: center;
     padding-bottom: 6rem;
     padding-right: 10rem;
 }
@@ -28,4 +28,24 @@
 .review__name {
     color: var(--p4);
     font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .review--container {
+        grid-template-columns: 1fr;
+    }
+
+    .review--container--content {
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .review__depoiment {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 1029px){
+    .review__depoiment {
+        padding-top: 2rem;
+    }
 }

@@ -10,13 +10,14 @@
 
 .insurance--container--content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
     align-items: center;
 }
 
 .insurance--container--plan {
     display: grid;
-    gap: 9rem;
+    gap: 2rem;
     grid-template-columns: 1fr auto;
     background-color: var(--black);
     padding: 1.5rem;
@@ -80,4 +81,15 @@
     text-align: end;
     font-size: .8rem;
     color: var(--c6);
+}
+
+@media screen and (max-width: 767px) {
+    .insurance--container--content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .insurance--container--plan {
+        gap: 0;
+    }
 }
