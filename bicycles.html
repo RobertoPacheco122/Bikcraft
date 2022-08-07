@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bikcraft</title>
+    <title>Bikcraft - Bicicletas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400;1,700;1,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/utility.css">
     <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css//bicycles/introdution.css">
+    <link rel="stylesheet" href="./assets/css/bicycles/introdution.css">
+    <link rel="stylesheet" href="./assets/css/bicycles/bicycles.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 <body>
@@ -37,46 +38,17 @@
         </div>
     </section>
     <article class="bicycles">
-
         <div class="bicycles--container container-1">
-            <div class="bicycles--container--nimbus bicycles--container--card">
+            <section class="bicycles--container--nimbus bicycles--container--card">
                 <div class="bicycles--container--image">
-                    <img src="./assets/img/bicicletas/nimbus.jpg" alt="Bicicleta Nimbus" class="bicycles__img">
+                    <img src="./assets/img/bicicletas/nimbus.jpg" alt="Bicicleta Nimbus" class="bicycles__img image">
                 </div>
                 <div class="bicycles--container--content">
-                    <h2 class="bicycles__name">Nimbus Stark</h2>
-                    <p class="bicycles__description">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
-                    <div class="bicycles--container--benefits">
-                        <ul class="bicycles__list">
-                            <li class="bicycles__item">
-                                <i class="bicycles__icon icon icon--bike"></i>
-                                <p class="bicycles__benefit">Motor Elétrico</p>
-                            </li>
-                            <li class="bicycles__item">
-                                <i class="bicycles__icon icon icon--carbon"></i>
-                                <p class="bicycles__benefit">Fibra de Carbono</p>
-                            </li>
-                            <li class="bicycles__item">
-                                <i class="bicycles__icon icon icon--speedometer"></i>
-                                <p class="bicycles__benefit">40 Km/h</p>
-                            </li>
-                            <li class="bicycles__item">
-                                <i class="bicycles__icon icon icon--tracker"></i>
-                                <p class="bicycles__benefit">Rastreador</p>
-                            </li>
-                        </ul>
-                        <a href="#" class="bicycles__button button">Mais Sobre</a>
+                    <div class="bicycles--container--header">
+                        <h2 class="bicycles__name title">Nimbus Stark</h2>
+                        <p class="bicycles__description">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
                     </div>
-                </div>
-            </div>
 
-            <div class="bicycles--container--magic bicycles--container--card">
-                <div class="bicycles--container--image">
-                    <img src="./assets/img/bicicletas/magic.jpg" alt="Bicicleta Nimbus" class="bicycles__img">
-                </div>
-                <div class="bicycles--container--content">
-                    <h2 class="bicycles__name">Magic Might</h2>
-                    <p class="bicycles__description">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
                     <div class="bicycles--container--benefits">
                         <ul class="bicycles__list">
                             <li class="bicycles__item">
@@ -99,15 +71,49 @@
                         <a href="#" class="bicycles__button button">Mais Sobre</a>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="bicycles--container--magic bicycles--container--card">
+                <div class="bicycles--container--image">
+                    <img src="./assets/img/bicicletas/magic.jpg" alt="Bicicleta Nimbus" class="bicycles__img image image">
+                </div>
+                <div class="bicycles--container--content">
+                    <div class="bicycles--container--header">
+                        <h2 class="bicycles__name title">Magic Might</h2>
+                        <p class="bicycles__description">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+                    </div>
+                    <div class="bicycles--container--benefits">
+                        <ul class="bicycles__list">
+                            <li class="bicycles__item">
+                                <i class="bicycles__icon icon icon--bike"></i>
+                                <p class="bicycles__benefit">Motor Elétrico</p>
+                            </li>
+                            <li class="bicycles__item">
+                                <i class="bicycles__icon icon icon--carbon"></i>
+                                <p class="bicycles__benefit">Fibra de Carbono</p>
+                            </li>
+                            <li class="bicycles__item">
+                                <i class="bicycles__icon icon icon--speedometer"></i>
+                                <p class="bicycles__benefit">40 Km/h</p>
+                            </li>
+                            <li class="bicycles__item">
+                                <i class="bicycles__icon icon icon--tracker"></i>
+                                <p class="bicycles__benefit">Rastreador</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="bicycles__button button">Mais Sobre</a>
+                    </div>
+                </div>
+            </section>
+            <section class="bicycles--container--nebula bicycles--container--card">
+                <div class="bicycles--container--image">
+                    <img src="./assets/img/bicicletas/nebula.jpg" alt="Bicicleta Nimbus" class="bicycles__img image">
+                </div>
+                <div class="bicycles--container--content">
+                    <div class="bicycles--container--header">
+                        <h2 class="bicycles__name title">Nebula Cosmic</h2>
+                        <p class="bicycles__description">A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+                    </div>
 
-            <div class="bicycles--container--nebula bicycles--container--card">
-                <div class="bicycles--container--image">
-                    <img src="./assets/img/bicicletas/nebula.jpg" alt="Bicicleta Nimbus" class="bicycles__img">
-                </div>
-                <div class="bicycles--container--content">
-                    <h2 class="bicycles__name">Nebula Cosmic</h2>
-                    <p class="bicycles__description">A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
                     <div class="bicycles--container--benefits">
                         <ul class="bicycles__list">
                             <li class="bicycles__item">
@@ -130,7 +136,7 @@
                         <a href="#" class="bicycles__button button">Mais Sobre</a>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </article>
 </main>
