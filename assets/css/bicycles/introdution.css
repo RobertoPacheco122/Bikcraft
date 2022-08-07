@@ -5,10 +5,6 @@
     padding-bottom: 2.5rem;
 }
 
-.introdution--container {
-    
-}
-
 .introdution__text {
     color: var(--c5);
     text-transform: uppercase;
