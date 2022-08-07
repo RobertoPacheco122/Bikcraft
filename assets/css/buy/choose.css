@@ -1,0 +1,159 @@
+.choose {
+    background-color: var(--c11);
+    color: var(--white);
+    padding: 3rem 0;
+}
+
+.choose__header {
+    padding: 0 15% 3rem 15%;
+}
+
+.choose__price {
+    display: block;
+    color: var(--c5);
+    margin-bottom: 1rem;
+}
+
+.choose--container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.choose--container--images {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 1rem;
+}
+
+.choose__img {
+    object-position: center;
+}
+
+.choose__img:first-child {
+    grid-column: 1 / -1;
+}
+
+
+.choose--container--description {
+    display: grid;
+
+    grid-template-rows: 1fr auto;
+    margin-bottom: 2rem;
+}
+
+.choose--container--button {
+    display: grid;
+
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+}
+
+.choose__description {
+    color: var(--c5);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.choose__button {
+    padding: 1rem;
+    background-color: var(--p1);
+    border-radius: 5px;
+    color: var(--black);
+    display: inline-block;
+}
+
+.choose--container--delivery {
+    margin-bottom: .2rem;
+}
+
+.choose--container--delivery, .choose--container--stock {
+    background-color: var(--black);
+    display: flex;
+    max-width: fit-content;
+    align-items: center;
+    padding: .1rem .3rem;
+    border-radius: 5px;
+    font-size: .7rem;
+}
+
+.choose__icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: .5rem;
+}
+
+.icon--delivery {
+    background-image: url("../../img/icones/entrega.svg");
+}
+
+.icon--stock {
+    background-image: url("../../img/icones/estoque.svg");
+}
+
+
+.choose--container--informations {
+    margin-bottom: 2rem;
+}
+
+.choose__subtitle {
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+.choose__list {
+    background-color: var(--black);
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.choose__list--information {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 2rem;
+}
+
+.icon--bike {
+    background-image: url("../../img/icones/eletrica.svg");
+}
+
+.icon--speedometer {
+    background-image: url("../../img/icones/velocidade.svg");
+}
+
+.icon--tracker {
+    background-image: url("../../img/icones/rastreador.svg");
+}
+
+.icon--carbon {
+    background-image: url("../../img/icones/carbono.svg");
+}
+
+.choose__benefit {
+    margin-bottom: 1rem;
+}
+
+.choose__description--benefit {
+    font-size: .8rem;
+    color: var(--c5);
+}
+
+.choose__item--datasheet {
+    display: flex;
+    justify-content: space-between;
+
+    padding: .5rem 0;
+
+    border-bottom: 1px solid var(--c11);
+}
