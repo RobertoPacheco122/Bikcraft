@@ -1,0 +1,82 @@
+.bicycles {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.bicycles--container--card {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.bicycles__img {
+    object-position: center;
+}
+
+.bicycles--container--header {
+    margin-bottom: 2rem;
+}
+
+.bicycles__name {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.bicycles__description {
+    padding-right: 9rem;
+}
+
+.bicycles--container--benefits {
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+}
+
+.bicycles__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.bicycles__button {
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--p1);
+    color: var(--p5);
+}
+
+.bicycles__button::after {
+    content: "➞";
+    margin-left: 1rem;
+}
+
+.bicycles__item:last-child {
+    margin-bottom: 0;
+}
+
+.bicycles__icon {
+    margin-right: .5rem;
+}
+
+.icon--bike {
+    background-image: url("../../img/icones/eletrica.svg");
+}
+
+.icon--carbon {
+    background-image: url("../../img/icones/carbono.svg");
+}
+
+.icon--speedometer {
+    background-image: url("../../img/icones/velocidade.svg");
+}
+
+.icon--tracker {
+    background-image: url("../../img/icones/rastreador.svg");
+}
+
+.bicycles__button {
+    align-self: end;
+}
