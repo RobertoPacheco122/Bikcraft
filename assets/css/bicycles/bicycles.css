@@ -25,10 +25,6 @@
     margin-bottom: 1.5rem;
 }
 
-.bicycles__description {
-    padding-right: 9rem;
-}
-
 .bicycles--container--benefits {
     display: grid;
     grid-template-columns: 1fr .5fr;
@@ -79,4 +75,22 @@
 
 .bicycles__button {
     align-self: end;
+}
+
+@media screen and (max-width: 767px){
+    .bicycles--container--card {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container-1 {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .bicycles__description {
+        padding-right: 9rem;
+    }
 }

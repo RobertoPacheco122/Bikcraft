@@ -1,15 +1,22 @@
 .introdution {
     background-color: var(--c11);
     color: var(--white);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .introdution--container {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    
 }
 
 .introdution__text {
     color: var(--c5);
     text-transform: uppercase;
     margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 767px) {
+    .introdution__title {
+        font-size: 2.5rem;
+    }
 }
