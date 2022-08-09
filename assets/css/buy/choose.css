@@ -157,3 +157,13 @@
 
     border-bottom: 1px solid var(--c11);
 }
+
+@media screen and (max-width: 767px) {
+    .choose--container {
+        grid-template-columns: 1fr;
+    }
+
+    .choose__description {
+        font-size: 1rem;
+    }
+}

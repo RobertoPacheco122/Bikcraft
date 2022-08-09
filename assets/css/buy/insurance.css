@@ -10,11 +10,11 @@
 
     box-shadow: inset 0 6rem var(--white), inset 0 -6rem var(--black);
     gap: 3rem;
-    align-items: center;
 }
 
 .insurance--container--content {
-    padding-right: 30%;
+    align-self: center;
+    padding: 10rem 0;
 }
 
 .insurance__title {
@@ -36,4 +36,18 @@
     padding: 1rem;
     display: inline-block;
     color: var(--black);
+}
+
+@media screen and (max-width: 767px) {
+    .insurance--container {
+        grid-template-columns: 1fr;
+    }
+
+    .insurance--container--content {
+        padding: 0 0 10rem;
+    }
+
+    .insurance__title {
+        font-size: 2rem;
+    }
 }
