@@ -30,6 +30,10 @@ body {
     font-family: var(--font-default);
 }
 
+.header__link:hover {
+    text-decoration: underline;
+}
+
 .container-1 {
     padding: 0 15%;
 }
