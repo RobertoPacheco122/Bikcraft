@@ -1,0 +1,100 @@
+.security {
+    background-color: var(--c11);
+    padding: 3rem 0;
+}
+
+.security__subtitle {
+    text-transform: uppercase;
+    color: var(--c6);
+}
+
+.security__title {
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+
+.security--container--content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.security--container--plan {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr auto;
+    background-color: var(--black);
+    padding: 1.5rem;
+    border-radius: 5px;
+    color: var(--white);
+}
+
+.security__plan {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-left: 1.3rem;
+}
+
+.security__plan--silver {
+    color: var(--c6);
+}
+
+.security__plan--gold {
+    color: var(--p1);
+}
+
+.security__item {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.security__item::before {
+    content: url(../../img/icones/lista.svg);
+    margin-right: .5rem;
+}
+
+.security__item:last-child {
+    margin-bottom: 1.5rem;
+}
+
+.security__button {
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.security__button--silver {
+    background-color: var(--c10);
+    color: var(--c4);
+}
+
+.security__button--gold {
+    background-color: var(--p1);
+    color: var(--p5);
+}
+
+.security__price {
+    font-size: 1.5rem;
+    display: block;
+}
+
+.security__peridiocity {
+    display: block;
+    text-align: end;
+    font-size: .8rem;
+    color: var(--c6);
+}
+
+@media screen and (max-width: 767px) {
+    .security--container--content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .security--container--plan {
+        gap: 0;
+    }
+}
