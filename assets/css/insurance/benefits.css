@@ -1,0 +1,49 @@
+.benefits {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 4rem 0;
+}
+
+.benefits__title {
+    margin-bottom: 3rem;
+}
+
+.benefits__list {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+}
+
+.benefits__icon, .benefits__subtitle {
+    margin-bottom: 1rem;
+}
+
+.benefits__description {
+    color: var(--c6);
+}
+
+.icon--bike {
+    background-image: url("../../img/icones/eletrica.svg");
+}
+
+.icon--carbon {
+    background-image: url("../../img/icones/carbono.svg");
+}
+
+.icon--plant {
+    background-image: url("../../img/icones/sustentavel.svg");
+}
+
+.icon--tracker {
+    background-image: url("../../img/icones/rastreador.svg");
+}
+
+.icon--security {
+    background-image: url("../../img/icones/seguro.svg");
+}
+
+.icon--speedometer {
+    background-image: url("../../img/icones/velocidade.svg");
+}
