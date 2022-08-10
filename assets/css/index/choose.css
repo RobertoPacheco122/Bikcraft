@@ -8,6 +8,11 @@
     margin-bottom: 2rem;
 }
 
+.choose__link {
+    text-decoration: none;
+    color: var(--black);
+}
+
 .choose__list {
     display: grid;
 
