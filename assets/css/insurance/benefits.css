@@ -12,7 +12,6 @@
     display: grid;
 
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
     gap: 2rem;
 }
 
@@ -46,4 +45,14 @@
 
 .icon--speedometer {
     background-image: url("../../img/icones/velocidade.svg");
+}
+
+@media screen and (max-width: 767px){
+    .benefits__title {
+        font-size: 2.5rem;
+    }
+
+    .benefits__list {
+        grid-template-columns: 1fr;
+    }
 }

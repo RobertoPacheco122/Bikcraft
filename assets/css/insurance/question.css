@@ -60,3 +60,12 @@
     display: none;
 }
 
+@media screen and (max-width: 767px){
+    .questions__title {
+        font-size: 2.5rem;
+    }
+
+    .questions__description {
+        max-width: 100%;
+    }
+}
