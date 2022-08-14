@@ -19,3 +19,9 @@
 .terms__title, .terms__clause {
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 767px){
+    .terms--container--card {
+        max-width: 100%;
+    }
+}
