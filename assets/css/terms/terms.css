@@ -1,0 +1,21 @@
+.terms {
+    padding: 5rem 0;
+}
+
+.terms--container--card {
+    margin-bottom: 3rem;
+    max-width: 55%;
+}
+
+.terms--container--card:last-child {
+    margin-bottom: 0;
+}
+
+.terms__title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.terms__title, .terms__clause {
+    margin-bottom: 1rem;
+}
