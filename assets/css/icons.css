@@ -1,0 +1,55 @@
+.icon--bike {
+    background-image: url("../img/icones/eletrica.svg");
+}
+
+.icon--carbon {
+    background-image: url("../img/icones/carbono.svg");
+}
+
+.icon--speedometer {
+    background-image: url("../img/icones/velocidade.svg");
+}
+
+.icon--tracker {
+    background-image: url("../img/icones/rastreador.svg");
+}
+
+.icon--security {
+    background-image: url("../img/icones/seguro.svg");
+}
+
+.icon--plant {
+    background-image: url("../img/icones/sustentavel.svg");
+}
+
+.icon--carbon {
+    background-image: url("../img/icones/carbono.svg");
+}
+
+.icon--instagram {
+    background-image: url("../img/redes/instagram.svg");
+}
+
+.icon--facebook {
+    background-image: url("../img/redes/facebook.svg");
+}
+
+.icon--youtube {
+    background-image: url("../img/redes/youtube.svg");
+}
+
+.icon--local {
+    background-image: url("../img/icones/local.svg");
+}
+
+.icon--mail {
+    background-image: url("../img/icones/email.svg");
+}
+
+.icon--phone {
+    background-image: url("../img/icones/telefone.svg");
+}
+
+.icon--watch {
+    background-image: url("../img/icones/horario.svg");
+}
