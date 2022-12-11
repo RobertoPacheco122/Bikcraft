@@ -1,8 +1,12 @@
 .introdution {
     background-color: var(--c11);
     color: var(--white);
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding: 2.5rem 0 4rem 0;
+    box-shadow: inset 0 -21rem var(--stores-bg)
+}
+
+.introdution--container {
+    margin-bottom: 4rem;
 }
 
 .introdution__text {
