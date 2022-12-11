@@ -1,0 +1,89 @@
+.information--container--card {
+    display: grid;
+    grid-template-columns: .6fr 1fr;
+    border-radius: .5rem;
+}
+
+.information--container--store {
+    background-color: var(--black);
+    color: var(--c4);
+}
+
+.information--container--store, .information--container--form {
+    padding: 4rem;
+}
+
+.information__title {
+    color: var(--white);
+    margin-bottom: 4rem;
+}
+
+.information__item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.information__item:last-child {
+    margin: 4rem 0 0 2rem;
+}
+
+.information__text {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.information__text:first-child {
+    margin-top: .5rem;
+}
+
+.information--container--form {
+    background-color: var(--white);
+}
+
+.information__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 3rem;
+}
+
+.information__label {
+    display: block;
+    margin-bottom: .5rem;
+    color: var(--black);
+}
+
+.information__input {
+    background-color: var(--c1);
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid var(--c2);
+    border-radius: .5rem;
+}
+
+.information--container--email {
+    grid-row: 2 / 2;
+    grid-column: 1 / -1;
+}
+
+#message {
+    height: 200px;
+}
+
+.information--container--message {
+    grid-row: 3 / 3;
+    grid-column: 1 / -1;
+}
+
+.information__button {
+    background-color: var(--p1);
+    border: none;
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
+.information__button:hover {
+    cursor: pointer;
+}
