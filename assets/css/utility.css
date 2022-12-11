@@ -6,6 +6,7 @@
     --partners-bg: #FFFFFF;
     --review-bg: #FFBB00;
     --insurance-bg: #111111;
+    --stores-bg: #EDEDED;
     --footer-bg: #000000;
 
     --font-color-default: #FFFFFF;
@@ -80,6 +81,9 @@ body {
     display: block;
     width: 32px;
     height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 @media screen and (max-width: 767px) {
