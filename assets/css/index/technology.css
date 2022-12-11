@@ -49,14 +49,6 @@
     margin-bottom: 1rem;
 }
 
-.icon--bike {
-    background-image: url(../../img/icones/eletrica.svg);
-}
-
-.icon--tracker {
-    background-image: url(../../img/icones/rastreador.svg);
-}
-
 .technology__benefit {
     color: var(--white);
     margin-bottom: 1rem;

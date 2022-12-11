@@ -57,22 +57,6 @@
     margin-right: .5rem;
 }
 
-.icon--bike {
-    background-image: url("../../img/icones/eletrica.svg");
-}
-
-.icon--carbon {
-    background-image: url("../../img/icones/carbono.svg");
-}
-
-.icon--speedometer {
-    background-image: url("../../img/icones/velocidade.svg");
-}
-
-.icon--tracker {
-    background-image: url("../../img/icones/rastreador.svg");
-}
-
 .bicycles__button {
     align-self: end;
 }

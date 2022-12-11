@@ -33,18 +33,6 @@
     margin-right: 1.5rem;
 }
 
-.icon--instagram {
-    background-image: url(../img/redes/instagram.svg);
-}
-
-.icon--facebook {
-    background-image: url("../img/redes/facebook.svg");
-}
-
-.icon--youtube {
-    background-image: url("../img/redes/youtube.svg");
-}
-
 .footer__item {
     margin-bottom: 1rem;
 }
